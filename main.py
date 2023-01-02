@@ -39,7 +39,7 @@ class MainWindow(QMainWindow):
         self.browser.urlChanged.connect(self.update_url)
 
     def navigate_home(self):
-        self.browser.setUrl(QUrl('http://github.com'))
+        self.browser.setUrl(QUrl('http://google.com'))
 
     def navigate_to_url(self):
         url = self.url_bar.text()
